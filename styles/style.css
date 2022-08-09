@@ -1,0 +1,106 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../assets/fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../assets/fonts/Roboto-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+    color: #ffffff;
+}
+
+.background {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background: linear-gradient(
+                rgba(0, 0, 0, 0.8),
+                rgba(0, 0, 0, 0) 35%,
+                rgba(0, 0, 0, 0) 80%,
+                rgba(0, 0, 0, 0.6) 100%
+            )
+            center center / cover no-repeat fixed,
+        url(../assets/backgrounds/aesthetic_sky.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.time-now {
+    font-size: 78px;
+    font-weight: 300;
+    position: fixed;
+    right: 50px;
+    top: 25px;
+    font-family: Poppins;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.bottom-bar {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-search {
+    display: flex;
+    height: 48px;
+    align-items: center;
+    padding: 0px 8px;
+    width: 80%;
+    min-width: 200px;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.container-search > div {
+    height: 32px;
+}
+
+.search-bar {
+    width: calc(100% - 48px);
+}
+
+input {
+    border: none;
+    width: calc(100% - 16px);
+    height: 100%;
+    outline: none;
+    font-size: 24px;
+    padding: 0px 8px;
+    color: black;
+    background-color: transparent;
+    transition: all 0.2s;
+}
+
+input::placeholder {
+    color: white;
+}
+
+svg {
+    fill: black;
+    transition: all 0.2s;
+}
+
+.search-button-svg {
+    cursor: pointer;
+}
+
+.search-button-svg:hover {
+    fill: #8b8b8b;
+}
