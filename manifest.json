@@ -1,10 +1,10 @@
 {
     "name": "Minimal New Tab",
     "description": "A minialistic, custom new tab extension for Chromium based browsers. ",
-    "version": "1.0",
+    "version": "1.2",
     "incognito": "split",
     "chrome_url_overrides": {
-      "newtab": "index.html"
+        "newtab": "index.html"
     },
     "manifest_version": 3
-  }
+}

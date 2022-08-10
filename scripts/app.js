@@ -1,6 +1,17 @@
 document.addEventListener(
     "DOMContentLoaded",
     function () {
+        document.getElementById(
+            "background"
+        ).style.backgroundImage = `linear-gradient(
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0) 35%,
+            rgba(0, 0, 0, 0) 80%,
+            rgba(0, 0, 0, 0.6) 100%
+        ),
+        url(../assets/backgrounds/background-${
+            Math.floor(Math.random() * 7) + 1
+        }.jpg)`;
         document
             .getElementById("search-button")
             .addEventListener("click", search);
@@ -28,6 +39,14 @@ function timeNow() {
         })
         .replace(/AM|PM/i, "")
         .replace(/\s/g, "");
+    document.getElementById("date-day").innerHTML = time.toLocaleString(
+        "en-US",
+        {
+            weekday: "long",
+            day: "numeric",
+            month: "long",
+        }
+    );
     setTimeout(timeNow, 1000);
 }
 
