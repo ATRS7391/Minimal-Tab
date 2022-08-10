@@ -9,7 +9,7 @@ document.addEventListener(
             rgba(0, 0, 0, 0) 80%,
             rgba(0, 0, 0, 0.6) 100%
         ),
-        url(../assets/backgrounds/background-${
+        url(./assets/backgrounds/background-${
             Math.floor(Math.random() * 7) + 1
         }.jpg)`;
         document
