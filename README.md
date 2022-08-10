@@ -35,7 +35,7 @@ _Note: The background and fonts might take some time to load in the web version.
 ## Acknowledgements
 
  - [Background Images](https://unsplash.com/)
- - [Fonts](https://fonts.google.com/)
+ - [Fonts and Icon](https://fonts.google.com/)
 
 
 ## Support
