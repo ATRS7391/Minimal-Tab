@@ -17,7 +17,7 @@ Inspired by [Brave](https://brave.com/) Browser's default New Tab page, but it w
 
 Click [**here**](https://atrs7391.github.io/Minimal-Tab/) to try it out! 
 
-_Note: The background and fonts might take some time to load in the web version._
+_Note: The background and fonts may take some time to load in the web version._
 
 
 ## Installation
