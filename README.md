@@ -40,4 +40,4 @@ _Note: The background and fonts may take some time to load in the web version._
 
 ## Support
 
-For suggestions, support and all, you can DM me on [Discord](https://atrs7391.up.railway.app/social/discord).
+For suggestions, support and all, you can DM me on [Discord](https://atrs7391.deta.dev/social/discord).
